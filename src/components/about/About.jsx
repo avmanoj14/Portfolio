@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae voluptatum vitae illo accusantium pariatur eveniet, molestiae laudantium iusto dignissimos officia a, labore dicta quasi. Sequi esse neque repudiandae quis.
+          Dedicated UI Developer with 2 years of hands-on experience. Looking for internships in front-end and I am eager to apply skills in real-world projects and contribute to problems that require enhanced user experiences.
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>

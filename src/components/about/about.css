@@ -1,7 +1,8 @@
-/* #about {
+#about {
     padding-top: 4rem;
-} */
+}
 .about__container {
+    /* height: 80vh; */
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
@@ -70,6 +71,9 @@
 
 /*======== Media Queries (Medium Devices) =========*/
 @media screen and (max-width: 1024px) {
+    #about {
+        padding-top: 0;
+    }
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -87,6 +91,9 @@
   
   /*======== Media Queries (Small Devices) =========*/
   @media screen and (max-width: 600px) {
+    #about {
+        padding-top: 0;
+    }
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;

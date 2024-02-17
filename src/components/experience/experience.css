@@ -1,3 +1,6 @@
+#experience {
+  padding-top: 4rem;
+}
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -42,6 +45,9 @@
 
 /*======== Media Queries (Medium Devices) =========*/
 @media screen and (max-width: 1024px) {
+  #experience {
+    padding-top: 0;
+  }
   .experience__container {
     grid-template-columns: 1fr;
   }
@@ -59,6 +65,9 @@
 
 /*======== Media Queries (Small Devices) =========*/
 @media screen and (max-width: 600px) {
+  #experience {
+    padding-top: 0;
+  }
     .experience__container {
         gap: 1rem;
     }

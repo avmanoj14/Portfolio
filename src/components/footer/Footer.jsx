@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer>
-      <a className='footer__logo'>Venkata Manoj Amara</a>
+      <a className='footer__logo' href='#'>Venkata Manoj Amara</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>

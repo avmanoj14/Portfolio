@@ -1,3 +1,7 @@
+#services {
+    padding-top: 4rem;
+  }
+
 .services__container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -52,6 +56,9 @@
 
 /*======== Media Queries (Medium Devices) =========*/
 @media screen and (max-width: 1024px) {
+    #services {
+        padding-top: 0;
+      }
     .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
@@ -64,6 +71,9 @@
   
   /*======== Media Queries (Small Devices) =========*/
   @media screen and (max-width: 600px) {
+    #services {
+        padding-top: 0;
+      }
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
