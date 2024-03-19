@@ -35,12 +35,18 @@
     text-align: center;
 }
 
+.service__head h6 {
+    color: var(--color-bg);
+    text-align: center;
+}
+
 .service__list {
     padding: 2rem;
 }
 
 .service__list li {
-    display: flex;
+    /* display: flex; */
+    display: -webkit-box;
     gap: 1rem;
     margin-bottom: 0.8rem;
 }
@@ -52,6 +58,7 @@
 
 .service__list p {
     font-size: 0.9rem;
+    padding-right: 2rem;
 }
 
 /*======== Media Queries (Medium Devices) =========*/

@@ -33,7 +33,7 @@ const About = () => {
             <article className="about__card">
             <FaFileCode className="about__icon" />
               <h5>Personal Projects</h5>
-              <small>15+ Completed Projects</small>
+              <small>7+ Completed Projects</small>
             </article>
           </div>
           <p>
